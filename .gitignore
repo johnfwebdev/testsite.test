@@ -1,0 +1,10 @@
+# Don't track content of these folders
+node_modules/
+dist/
+
+
+# Don't track these file types
+.DS_Store
+.zip
+.rar
+.csv
