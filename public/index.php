@@ -12,7 +12,12 @@
   <noscript>
     You need to enable JavaScript to run this app.
   </noscript>
-  <script src="../dist/bundle.js"></script>
+  <script src="./dist/bundle.js"></script>
+
+  <?php
+    phpinfo();
+  ?>
+
 </body>
 
 </html>
