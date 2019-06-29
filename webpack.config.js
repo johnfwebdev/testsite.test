@@ -3,14 +3,18 @@ const webpack = require("webpack");
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
-  entry: "./src/index.js",
+  entry: "./src/Index.js",
   mode: "development",
   module: {
     rules: [
       {
         test: /\.(js|jsx)$/,
         exclude: /(node_modules|bower_components)/,
-        loader: "babel-loader"
+        loader: "babel-loader", 
+        query:
+          {
+            presets:['@babel/preset-react']
+          }
       },
       {
         test: /\.css$/,

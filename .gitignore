@@ -1,6 +1,9 @@
 # Don't track content of these folders
 node_modules/
-dist/
+
+
+#files
+bundle.js
 
 
 # Don't track these file types
